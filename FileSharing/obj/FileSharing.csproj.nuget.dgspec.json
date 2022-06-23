@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\赵颖\\source\\repos\\FileSharing\\FileSharing\\FileSharing.csproj": {}
+    "E:\\2 github\\FileSharing\\FileSharing\\FileSharing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\赵颖\\source\\repos\\FileSharing\\FileSharing\\FileSharing.csproj": {
+    "E:\\2 github\\FileSharing\\FileSharing\\FileSharing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\赵颖\\source\\repos\\FileSharing\\FileSharing\\FileSharing.csproj",
+        "projectUniqueName": "E:\\2 github\\FileSharing\\FileSharing\\FileSharing.csproj",
         "projectName": "FileSharing",
-        "projectPath": "C:\\Users\\赵颖\\source\\repos\\FileSharing\\FileSharing\\FileSharing.csproj",
-        "packagesPath": "C:\\Users\\赵颖\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\赵颖\\source\\repos\\FileSharing\\FileSharing\\obj\\",
+        "projectPath": "E:\\2 github\\FileSharing\\FileSharing\\FileSharing.csproj",
+        "packagesPath": "C:\\Users\\91255\\.nuget\\packages\\",
+        "outputPath": "E:\\2 github\\FileSharing\\FileSharing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\赵颖\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\91255\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Elasticsearch.Net": {
+              "target": "Package",
+              "version": "[7.17.2, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -63,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
